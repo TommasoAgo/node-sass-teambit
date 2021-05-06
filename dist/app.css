@@ -38,11 +38,19 @@ header .header-navbar .navbar-menu li a {
   font-size: 12px;
   font-weight: bold;
 }
+header .header-navbar .navbar-menu li a:hover {
+  color: #ffe7d2;
+}
 header .header-navbar .navbar-menu button {
   padding: 10px;
   border: 1px solid #584245;
   border-radius: 5px;
   background-color: white;
+}
+header .header-navbar .navbar-menu button:hover {
+  background-color: #ffe7d2;
+  color: #584245;
+  cursor: pointer;
 }
 header .header-navbar .navbar-menu button img {
   width: 18px;

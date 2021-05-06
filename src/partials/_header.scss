@@ -20,6 +20,10 @@ header {
                     text-decoration: none;
                     color: $text_main_color;
                     @include menu_text;
+
+                    &:hover {
+                        color: $brand_primary_color;
+                    }
                 }
             }
 
@@ -29,6 +33,12 @@ header {
                 border: 1px solid $text_main_color;
                 border-radius: 5px;
                 background-color: white;
+
+                &:hover {
+                    background-color: $brand_primary_color;
+                    color: $text_main_color;
+                    cursor: pointer;
+                }
 
                 img {
                     width: 18px;
