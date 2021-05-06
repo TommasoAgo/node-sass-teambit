@@ -99,28 +99,36 @@ header .header-navbar .navbar-menu button img {
   width: 100%;
 }
 
-.traditional-section {
+.before-after-section {
   text-align: center;
   background-color: #ffe7d2;
 }
-.traditional-section h2 {
+.before-after-section h2 {
   font-size: 18px;
   color: #584245;
   padding: 50px 0;
 }
-.traditional-section .img-container-first {
+.before-after-section .img-container-first {
   display: flex;
   flex-direction: row;
 }
-.traditional-section .img-container-first .section-img {
+.before-after-section .img-container-first .section-img {
   width: calc( 100% / 3 );
 }
-.traditional-section .img-container-first .section-img img {
+.before-after-section .img-container-first .section-img img {
   width: 30%;
 }
-.traditional-section .img-container-second {
+.before-after-section .img-container-second {
   padding: 50px 0;
 }
-.traditional-section .img-container-second img {
+.before-after-section .img-container-second img {
   width: 30%;
+}
+
+.before .img-container-second {
+  border-bottom: 1px solid black;
+}
+
+.safe {
+  padding: 0 80px 80px 80px;
 }

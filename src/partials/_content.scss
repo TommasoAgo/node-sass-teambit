@@ -1,4 +1,4 @@
-.traditional-section {
+.before-after-section {
     text-align: center;
     background-color: $brand_primary_color;
 
@@ -27,4 +27,14 @@
             width: 30%;
         }
     }
+}
+
+.before {
+    .img-container-second {
+        border-bottom: 1px solid black;
+    }
+}
+
+.safe {
+    padding: 0 80px 80px 80px;
 }
