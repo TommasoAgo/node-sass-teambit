@@ -1,0 +1,30 @@
+.traditional-section {
+    text-align: center;
+    background-color: $brand_primary_color;
+
+    h2 {
+        font-size: $secondary_title_size;
+        color: $text_main_color;
+        padding: 50px 0
+    }
+
+    .img-container-first {
+        @include flex_row;
+
+        .section-img {
+            width: calc( 100% / 3 );
+            
+            img {
+                width: 30%;
+            }
+        }
+    }
+
+    .img-container-second {
+        padding: 50px 0;
+
+        img {
+            width: 30%;
+        }
+    }
+}
