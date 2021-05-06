@@ -1,1 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+header {
+  padding: 15px;
+  border-bottom: 1px solid #584245;
+}
+header .header-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-navbar .navbar-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+header .header-navbar .navbar-menu li {
+  padding-left: 20px;
+}
+header .header-navbar .navbar-menu li a {
+  text-decoration: none;
+  color: #584245;
+  font-size: 12px;
+  font-weight: bold;
+}
+header .header-navbar .navbar-menu button {
+  padding: 10px;
+  border: 1px solid #584245;
+  border-radius: 5px;
+  background-color: white;
+}
+header .header-navbar .navbar-menu button img {
+  width: 18px;
+  vertical-align: middle;
+}

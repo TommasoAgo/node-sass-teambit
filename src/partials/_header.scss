@@ -1,0 +1,40 @@
+header {
+    padding: 15px;
+    border-bottom: 1px solid $text_main_color;
+
+    .header-navbar {
+        @include flex_row;
+        justify-content: space-between;
+        align-items: center;
+
+        // Navbar Menu
+        .navbar-menu {
+            @include flex_row;
+            align-items: center;
+            list-style-type: none;
+
+            // Menu Elements
+            li {
+                padding-left: 20px;
+                a {
+                    text-decoration: none;
+                    color: $text_main_color;
+                    @include menu_text;
+                }
+            }
+
+            // Google Button
+            button {
+                padding: 10px;
+                border: 1px solid $text_main_color;
+                border-radius: 5px;
+                background-color: white;
+
+                img {
+                    width: 18px;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}
