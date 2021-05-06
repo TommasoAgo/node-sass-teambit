@@ -9,3 +9,11 @@
     font-size: 12px;
     font-weight: bold;
 }
+
+// Mixin per i social buttons
+@mixin social_btn {
+    padding: 5px;
+    color: white;
+    background-color: #2e4790;
+    border: 1px solid black;
+}
