@@ -1,3 +1,5 @@
+// Before and After Section
+
 .before-after-section {
     text-align: center;
     background-color: $brand_primary_color;
@@ -42,4 +44,52 @@
 
 .safe {
     padding: 0 50px 80px 50px;
+}
+
+// How it Works Section
+.row {
+    display: flex;
+}
+
+.odd {
+    flex-direction: row-reverse;
+}
+
+.even {
+    .hw-txt,
+    .hw-img {
+        margin-left: 50%;
+    }
+}
+
+// How it Works Section Rows Template
+.row {
+    div {
+        width: 50%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .hw-txt {
+        margin-bottom: 40px;
+
+        h2 {
+            font-size: $secondary_title_size;
+            color: $text_main_color;
+            margin: 40px 0;
+        }
+
+        p{
+            font-size: $paragraph_font_size;
+            color: $text_main_color;
+            margin: 20px 0;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: $paragraph_font_size;
+        }
+    }
 }

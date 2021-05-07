@@ -136,3 +136,40 @@ header .header-navbar .navbar-menu button img {
 .safe {
   padding: 0 50px 80px 50px;
 }
+
+.row {
+  display: flex;
+}
+
+.odd {
+  flex-direction: row-reverse;
+}
+
+.even .hw-txt,
+.even .hw-img {
+  margin-left: 50%;
+}
+
+.row div {
+  width: 50%;
+}
+.row div img {
+  width: 100%;
+}
+.row .hw-txt {
+  margin-bottom: 40px;
+}
+.row .hw-txt h2 {
+  font-size: 18px;
+  color: #584245;
+  margin: 40px 0;
+}
+.row .hw-txt p {
+  font-size: 12px;
+  color: #584245;
+  margin: 20px 0;
+}
+.row .hw-txt a {
+  text-decoration: none;
+  font-size: 12px;
+}
