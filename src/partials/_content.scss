@@ -10,13 +10,18 @@
 
     .img-container-first {
         @include flex_row;
+        align-items: baseline;
 
         .section-img {
             width: calc( 100% / 3 );
-            
+
             img {
                 width: 30%;
             }
+        }
+
+        p {
+            font-size: $paragraph_font_size;
         }
     }
 
@@ -36,5 +41,5 @@
 }
 
 .safe {
-    padding: 0 80px 80px 80px;
+    padding: 0 50px 80px 50px;
 }

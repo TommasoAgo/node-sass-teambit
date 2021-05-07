@@ -111,12 +111,16 @@ header .header-navbar .navbar-menu button img {
 .before-after-section .img-container-first {
   display: flex;
   flex-direction: row;
+  align-items: baseline;
 }
 .before-after-section .img-container-first .section-img {
   width: calc( 100% / 3 );
 }
 .before-after-section .img-container-first .section-img img {
   width: 30%;
+}
+.before-after-section .img-container-first p {
+  font-size: 12px;
 }
 .before-after-section .img-container-second {
   padding: 50px 0;
@@ -130,5 +134,5 @@ header .header-navbar .navbar-menu button img {
 }
 
 .safe {
-  padding: 0 80px 80px 80px;
+  padding: 0 50px 80px 50px;
 }
