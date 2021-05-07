@@ -150,6 +150,10 @@ header .header-navbar .navbar-menu button img {
   margin-left: 50%;
 }
 
+.how-it-works {
+  padding-bottom: 70px;
+}
+
 .row div {
   width: 50%;
 }
@@ -172,4 +176,59 @@ header .header-navbar .navbar-menu button img {
 .row .hw-txt a {
   text-decoration: none;
   font-size: 12px;
+}
+
+.get-started {
+  background-color: #ffe7d2;
+  padding-top: 40px;
+}
+.get-started .gs-section-title {
+  width: 30%;
+  margin: auto;
+  color: #584245;
+}
+.get-started .gs-text-container {
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  padding: 20px 20px 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 10px;
+  margin-top: 50px;
+}
+.get-started .gs-text-container .gs-imgs {
+  display: inline-block;
+  vertical-align: middle;
+}
+.get-started .gs-text-container .gs-imgs img {
+  width: 40px;
+  margin: 10px;
+}
+.get-started .founders-names {
+  display: inline-block;
+}
+.get-started .founders-names .founders {
+  color: #6399e4;
+}
+.get-started .gs-buttons {
+  margin-top: 50px;
+  text-align: center;
+}
+.get-started .gs-buttons button {
+  padding: 5px;
+  color: white;
+  background-color: #2e4790;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.get-started .gs-buttons button img {
+  width: 10px;
+}
+.get-started .gs-buttons .btn-divisor {
+  font-size: 10px;
+}
+.get-started .gs-buttons p {
+  font-size: 10px;
+  padding: 20px 0;
 }
