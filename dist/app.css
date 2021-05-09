@@ -57,6 +57,11 @@ header .header-navbar .navbar-menu button img {
   vertical-align: middle;
 }
 
+@media all and (max-width: 768px) {
+  header .header-navbar .navbar-menu {
+    display: none;
+  }
+}
 .jumbotron {
   display: flex;
   flex-direction: row;
@@ -276,4 +281,11 @@ header .header-navbar .navbar-menu button img {
 .footer-nav .footer-menu .sub-menu li a {
   text-decoration: none;
   color: black;
+}
+
+@media all and (max-width: 768px) {
+  .footer-nav .footer-menu {
+    display: flex;
+    flex-direction: column;
+  }
 }

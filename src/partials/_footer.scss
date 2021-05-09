@@ -49,3 +49,13 @@
         }
     }
 }
+
+@media all and (max-width: 768px) {
+    .footer-nav {
+
+        .footer-menu {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
